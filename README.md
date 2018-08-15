@@ -1,2 +1,2 @@
-# Capstone
-Bachelor Degree - Computer Science Capstone Project
+# Repawsitory
+CSUMB Bachelor Degree - Computer Science Capstone Project
