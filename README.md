@@ -1,2 +1,3 @@
 # Repawsitory
-CSUMB Bachelor Degree - Computer Science Capstone Project
+
+Online pet records. www.repaw.io
