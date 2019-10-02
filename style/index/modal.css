@@ -1,0 +1,29 @@
+#newsletter-popup{
+  margin: 0 auto;
+  margin-top: 50vh; 
+  background: white;
+  border-radius: 5px;
+  width: 25%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+@media screen and (max-width: 750px){
+  #newsletter-popup{
+    width: 90vw;
+  }
+}
+
+.newsletter-overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 700ms;
+  visibility: visible;
+  opacity: 1;
+  display: none;
+  z-index: 1031; /* Set to 1031 because bootstrap 4 nav-bar is set to 1030 */ 
+}

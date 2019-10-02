@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold  {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.top-container {
+    background-image: url('../imgs/forgot_pass.jpg'); 
+    height: 65vh;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.nav-link:hover {
+    color: gray;
+  }
+
+
+.nav-btn:hover {
+    background-color: #8bb79c;
+}
+
+.demo:hover {
+    background-color: #f86f11;
+}
+
+.logout-btn:hover {
+    background-color: #cf6363;
+  }
+
+.row-content {
+    height: 93vh;
+}
+
+/* FORM ====================================== */
+.form-col {
+    background-color: #e6e6e6;
+}
+
+.icon-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.choose {
+    margin-bottom: 0;
+    margin-top: 2vh;
+}
+
+/* Dog / Cat Radio Buttons */
+
+/* Hide Radio Buttons ---- */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio] + img {
+    cursor: pointer;
+}
+
+[type=radio]:checked + img {
+    border:3px solid #f86f11;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.icon {
+    padding: 8px;
+}
+
+.icon-cat {
+    margin-left: 3vw;
+}
+
+@keyframes wobble-vertical {
+    16.65% {
+      transform: translateY(8px);
+    }
+    33.3% {
+      transform: translateY(-6px);
+    }
+    49.95% {
+      transform: translateY(4px);
+    }
+    66.6% {
+      transform: translateY(-2px);
+    }
+    83.25% {
+      transform: translateY(1px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+.wobble-vertical {
+    display: inline-block;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.wobble-vertical:hover {
+    animation-name: wobble-vertical;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    text-decoration: none;
+}
+
+@keyframes wobble-horizontal {
+    16.65% {
+        transform: translateX(8px);
+    }
+    33.3% {
+        transform: translateX(-6px);
+    }
+    49.95% {
+        transform: translateX(4px);
+    }
+    66.6% {
+        transform: translateX(-2px);
+    }
+    83.25% {
+        transform: translateX(1px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.wobble-horizontal {
+    display: inline-block;
+    -webkit-tap-highlight-color: transparent;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.wobble-horizontal:hover {
+    animation-name: wobble-horizontal;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+/* Form */
+
+.label{
+    margin-bottom: 0;
+    margin-top: 1vh;
+}
+
+.foster-form-btn {
+    background-color: white;
+    color: black;
+}
+
+.reset-btn:hover {
+    background-color: #cf6363;
+    color: white !important;
+}
+
+/* Bootstrap Input Focus */
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px black;
+  outline: 0 none;
+}
+
+/* Card Column ================================================================== */
+
+.card-col {
+    background-color: #ededed;
+    padding-top: 1.5vh;
+}
+
+.foster-header {
+    padding-top: 1.5vh;
+}
+
+/* CARD STYLE ==== */
+
+.dash-card {
+    border: 2px solid #26272b;
+    padding: 1vw;
+    border-radius: 5px;
+    background-color: white;
+    color: #26272b;
+  }
+
+  .dash-header {
+    text-align: center;
+    font-size: 6vh;
+    margin-bottom: 2vh;
+    color: #26272b;
+    font-weight: bold;
+  }
+
+  .card-wrapper {
+    margin-top:15px;
+  }
+
+  .card-header {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .card-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-info {
+    text-align:left;
+    margin-left:3px;
+  }
+
+  .card-footer {
+    margin-top: 3vh;
+  }
+
+  #bold {
+    font-weight: bold;
+  }
+
+  .img-slider {
+    padding: 5vh 8vw 5vh 8vw;
+  }
