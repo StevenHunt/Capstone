@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html, body {
+  font-family: Roboto;  
+  color: black;
+}
+
+/* NAVIGATION SIDE ======================================================== */ 
+
+.be-nav {
+  background-color: #26272b; 
+  min-height: 100vh; 
+}
+
+.nav-header {
+  text-align: center; 
+  font-family: Roboto; 
+  font-weight: bold; 
+  color: white; 
+}
+
+.dash {
+  background-color: #ebebeb; 
+  padding: 5vh 5vw 5vh 5vw;
+  height: auto; 
+  min-height: 100%; 
+}
+
+.dash-nav-link {
+  height: 4vh; 
+  padding-top: 1.25vh;  
+  background-color: #ddeddd; 
+  border-radius: 5px;  
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 15px; 
+  margin: 2vh 0 2vh 0;  
+}
+
+.nav-link-wrapper a:hover {
+  text-decoration: none; 
+  color: black; 
+  background-color:#7e8f7d;
+  font-weight: bold; 
+}
+
+#active {
+  background-color: #f86f11;  
+  border-radius: 5px;  
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: black; 
+  margin: 2vh 0 2vh 0;  
+  font-weight: bold;
+  height: 4vh;
+  font-size: 18px; 
+}
+
+/* Form Side ================================ */ 
+
+.edit-info {
+  background-color: #ebebeb; 
+  padding: 5vh 5vw 5vh 5vw;
+  height: auto; 
+  min-height: 100%; 
+}
+
+.dash-header {
+  text-align: center; 
+  font-size: 6vh;  
+  margin-bottom: 2vh;
+  color: #26272b;
+  font-weight: bold; 
+}
+
+.gi-form {
+  margin: 5vh 0 5vh 0; 
+}
+
+.form-wrapper {
+  padding: 2vw; 
+}
+
+.col-form-label {
+  color: black; 
+}
+
+.form-row {
+  margin-top: 2vh;
+  color: #26272b;
+}
+
+.form-horizontal .control-label{
+  text-align:left;
+}
+
+.acc-info {
+  margin-bottom: 0;
+  color: #26272b;
+}
+
+.form-subheader {
+  color: #26272b; 
+  font-weight: bold; 
+  font-size: 23px; 
+}
+
+.update-btn {
+  margin-top: 3vh; 
+}
